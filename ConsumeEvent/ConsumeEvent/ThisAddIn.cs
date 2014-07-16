@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using HasEvent2;
+using HasEvent;
 using Office = Microsoft.Office.Core;
 
 namespace ConsumeEvent {
