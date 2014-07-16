@@ -9,7 +9,7 @@ namespace ConsumeEvent {
 		private Office.COMAddIn hasEvent;
 
 		public void AfterSave() {
-			MessageBox.Show("Saved!");
+			MessageBox.Show("Before save event fired");
 		}
 
 		private void ThisAddIn_Startup(object sender, EventArgs e) {
