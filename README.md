@@ -3,6 +3,10 @@ ComAddinEvent
 
 Proof of concept for communication between COM addins within VSTO context
 
+Requirements:
+* Visual Studio 2013
+* VSTO april 2014 (newest at time of writing)
+
 To debug:
 
 1. Open and run HasEvent. Word should start and you should see the add-in load.
