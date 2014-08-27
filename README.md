@@ -3,6 +3,10 @@ ComAddinEvent
 
 Proof of concept for communication between COM addins within VSTO context
 
+Microsoft Office Word has a Document_Save event. The calling order of subscribers is indeterminate. When addin X needs access before addin Y to the save event, simply subscribing to the event won't solve the problem as addin Y might be called first. A solution of this problem is to have addin Y subscribe to an event of addin X.
+
+This proof of concept is written in VisualBasic.NET 10.0. For the C# version, check out https://github.com/generateui/ComAddinEvent.
+
 Requirements:
 * Visual Studio 2013
 * VSTO april 2014 (newest at time of writing)
