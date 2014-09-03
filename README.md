@@ -25,3 +25,4 @@ Remarks:
 * Tested on VSTO runtime versions
   * 10.0.30319 (october 2010)
   * 10.0.50701 (april 2014)
+* This works regardles of the language HasEvent and ConsumeEvent are written in. Both can be VB.NET, C#, or any combination
